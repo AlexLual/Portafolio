@@ -1,0 +1,28 @@
+/* Portfolio */
+#portfolio {
+	padding: 90px 0;
+	background: #f8f9fa;
+}
+
+#portfolio h2 {
+	padding-bottom: 50px;
+}
+
+.portfolio-row {
+	display: flex;
+}
+
+.portfolio-row-box {
+	margin: 20px;
+	background: #fff;
+	box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+}
+.portfolio-row-box img {
+	width: 100%;
+}
+
+.portfolio-row-box p {
+	text-align: center;
+	padding: 20px;
+	margin-top: 0;
+}

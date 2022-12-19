@@ -1,0 +1,28 @@
+/* Contact */
+#contact {
+	padding: 90px 0;
+	background: #f8f9fa;
+}
+
+#contact h2 {
+	padding: 50px;
+}
+
+.contact-form {
+	background: #fff;
+	width: 50%;
+	margin: 20px auto;
+	padding: 70px 50px;
+	border-radius: 20px;
+	box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form h5 {
+	text-align: center;
+	padding-bottom: 40px;
+	font-weight: 900;
+}
+
+.contact-form button {
+	width: 100%;
+}
