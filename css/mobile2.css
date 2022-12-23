@@ -1,12 +1,4 @@
 /* Utility Classes */
-.display-1 {
-	font-size: 4rem;
-}
-
-/* Navbar */
-.navbar-home {
-	height: 10%;
-}
 
 /* Showcase */
 #showcase {
@@ -24,6 +16,11 @@
 	padding-bottom: 20px;
 	text-align: center;
 }
+.showcase-row-image img{
+  height:200px;
+  width: 200px;
+} 
+
 
 /* About */
 #about {

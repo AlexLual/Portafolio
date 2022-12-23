@@ -1,4 +1,9 @@
 /* About */
+@font-face {
+  font-family: Cordia;
+  src: url(../Fonts/Cordia\ New\ Bold.ttf);
+}
+
 #about {
 	background: #f8f9fa;
 	padding: 90px 0;
@@ -10,6 +15,9 @@
 
 .about-row {
 	display: flex;
+}
+.desarrollador{
+  font-family: 30px;
 }
 
 .about-row-image img {
@@ -80,4 +88,9 @@
 	color: #fff;
 	padding: 12px 30px;
 	border-radius: 20px;
+}
+.parrafoDeMi{
+  font-size: 30px;
+  font-family: Cordia;
+  text-align: justify;
 }

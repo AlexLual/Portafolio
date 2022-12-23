@@ -7,8 +7,14 @@
   font-family: AcientsT;
   src: url(../Fonts/Acients.ttf);
 }
-
-
+@font-face {
+  font-family: Browa;
+  src: url(../Fonts/browa.ttf);
+}
+@font-face {
+  font-family: Cordia;
+  src: url(../Fonts/cordiai.ttf);
+}
 
 
 /* Reset */
@@ -16,6 +22,9 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+}
+html{
+  scroll-behavior: smooth;
 }
 
 /* Main Styling */
@@ -145,74 +154,60 @@ form .form-control {
 	margin: 0 auto;
 }
 
-.showcase-row-image img {
-	height: 500px;
-}
-
-
-
+/*  */
 
 
 
 
 /* Footer */
-.footer-home {
-	height: 100px;
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  align-items: center;
-  vertical-align: auto;
-  margin-top: 30px;
+.pie-pagina{
+  width: 100%;
+}
+.pie-pagina .grupo-2{
+background-color: #0a1a2a;
+padding: 10px 10px;
+text-align: center;
+color: #fff;
 }
 
-#mainfooter {
-	background: #f8f9fa;
-	text-align: center;
-	padding: 30px;
-  margin-top: 30px;
+.pie-pagina .grupo-2 small{
+  font-size: 15px;
+  font-family: Cordia;
+}
+.pie-pagina .grupo-2 h2{
+  font-size: 15px;
+  margin: 0;
+   font-family: Cordia;
+}
+.pie-pagina .grupo-2 .red-social a{
+display: inline-block;
+text-decoration: none;
+width: 30px;
+height: 30px;
+line-height: 30px;
+color: #fff;
+margin-right: 10px;
+background-color: #0d2033;
+text-align: center;
+border-radius: px;
+}
+.pie-pagina .grupo-2 .red-social a:hover{
+  color: aqua;
+}
+.pie-pagina .grupo-2 .red-social a:active{
+  color: crimson;
 }
 
+@media screen and(max-width:800px){
+.pie-pagina .grupo-1{
+width: 90%;
 
-/* footer */
-.icon {
-    position: relative;
-    width: 80px;
-    height: 80px;
-    margin: 20px;
-  
-    border-radius: 50%;
-    transition: all .8s;
-    cursor: pointer;
-    display: flex;
+/* display: grid; */
+grid-template-columns: repeat(1, 1fr);
+grid-gap: 30px;
+padding: 35px 0px;
 }
 
-.icon:hover {
-    background-color: #e60073;
-    box-shadow:  0 0 20px #e60073 ;
-}
-
-.icon:hover:nth-child(2) {
-    background-color: #3122b2;
-    box-shadow:  0 0 20px #4537c5;
-}
+} 
 
 
-.icon i {
-  display: flex;
-    color: rgb(6, 6, 6);
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    font-size: 1.7rem;
-}
-
-svg circle {
-    stroke-dasharray: 150;
-    transition: all .8s ease-in-out;
-}
-
-.icon:hover circle {
-    stroke-dasharray: 220;
-}

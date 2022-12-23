@@ -1,4 +1,8 @@
-/* Portfolio */
+/* Portafolio */
+@font-face {
+  font-family: Cordia;
+  src: url(../Fonts/Cordia\ New\ Bold.ttf);
+}
 #portfolio {
 	padding: 90px 0;
 	background: #f8f9fa;
@@ -25,4 +29,13 @@
 	text-align: center;
 	padding: 20px;
 	margin-top: 0;
+  font-size: 40px;
+  font-family: Cordia;
+}
+
+.portfolio-row-box a:hover{
+  color: aqua;
+}
+.portfolio-row-box a:active{
+  color: crimson;
 }
