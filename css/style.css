@@ -56,7 +56,7 @@ h1,
 h2,
 h3,
 h4 {
-	text-transform: uppercase;
+	text-transform: capitalize;
 	font-weight: 900;
 }
 
@@ -154,8 +154,8 @@ form .form-control {
 	margin: 0 auto;
 }
 .showcase-row-image img{
-  width: 200px;
-  height: 200px;
+  width: 500px;
+  height: 500px;
 }
 
 /*  */
@@ -193,7 +193,6 @@ color: #fff;
 margin-right: 10px;
 background-color: #0d2033;
 text-align: center;
-border-radius: px;
 }
 .pie-pagina .grupo-2 .red-social a:hover{
   color: aqua;
@@ -202,10 +201,9 @@ border-radius: px;
   color: crimson;
 }
 
-@media screen and(max-width:800px){
-.pie-pagina .grupo-1{
+@media screen and(min-width:400px){
+.pie-pagina .grupo-2{
 width: 90%;
-
 /* display: grid; */
 grid-template-columns: repeat(1, 1fr);
 grid-gap: 30px;
