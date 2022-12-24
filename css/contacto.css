@@ -16,6 +16,10 @@
 	border-radius: 20px;
 	box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
 }
+.contact-form:hover{
+  border: solid crimson;
+}
+
 
 .contact-form h5 {
 	text-align: center;
@@ -25,4 +29,10 @@
 
 .contact-form button {
 	width: 100%;
+}
+.form-control:hover{
+  border: solid aqua;
+}
+.form-control:active{
+  border: solid crimson;
 }

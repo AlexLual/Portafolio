@@ -153,6 +153,10 @@ form .form-control {
 	display: block;
 	margin: 0 auto;
 }
+.showcase-row-image img{
+  width: 200px;
+  height: 200px;
+}
 
 /*  */
 

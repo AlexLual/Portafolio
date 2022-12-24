@@ -82,9 +82,17 @@
 	text-align: right;
 	padding-right: 80px;
 }
-
+.timeline-row-text a{
+  color: black;
+}
+.timeline-row-text a:hover{
+color: aqua;
+}
+.timeline-row-text a:active{
+color: crimson;
+}
 .timeline-row-tag p span {
-	background: #c4c4c4;
+	background: #0202027f;
 	color: #fff;
 	padding: 12px 30px;
 	border-radius: 20px;
@@ -94,3 +102,4 @@
   font-family: Cordia;
   text-align: justify;
 }
+

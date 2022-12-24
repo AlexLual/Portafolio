@@ -3,6 +3,17 @@
   font-family: Cordia;
   src: url(../Fonts/Cordia\ New\ Bold.ttf);
 }
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html{
+  scroll-behavior: smooth;
+}
+
+
 #portfolio {
 	padding: 90px 0;
 	background: #f8f9fa;
@@ -17,19 +28,22 @@
 }
 
 .portfolio-row-box {
-	margin: 20px;
+	margin: 0px;
 	background: #fff;
 	box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+  width: 350px;
+  height: 300px;
 }
 .portfolio-row-box img {
-	width: 100%;
+	width: 300px;
+  height: 250px;
 }
 
 .portfolio-row-box p {
 	text-align: center;
 	padding: 20px;
 	margin-top: 0;
-  font-size: 40px;
+  font-size: 20px;
   font-family: Cordia;
 }
 
@@ -38,4 +52,11 @@
 }
 .portfolio-row-box a:active{
   color: crimson;
+}
+.skills-row-left-image {
+	width: 50%;
+  display: flex;
+}
+.skills-row-left-image img {
+	height: 100px;
 }
